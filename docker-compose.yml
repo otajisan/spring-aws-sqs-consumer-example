@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  spring-aws-sqs-consumer-example:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/spring-aws-sqs-consumer-example
